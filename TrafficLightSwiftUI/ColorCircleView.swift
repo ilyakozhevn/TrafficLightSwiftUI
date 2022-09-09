@@ -14,7 +14,7 @@ struct ColorCircleView: View {
     var body: some View {
         Circle()
             .foregroundColor(color)
-            .saturation(active ? 1 : 0)
+            .saturation(active ? 1 : 0.1)
     }
 }
 
